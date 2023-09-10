@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link href="./dist/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="container bg-slate-100 flex h-screen">
+    <section class="m-auto">
+      <div>
+        <label for="textoEntrada"></label><input id="textoEntrada"
+          class="shadow  bg-slate-300 border-slate-400 border hover:border-slate-800 py-1 px-2 rounded-none text-slate-800"
+          type="text">
+        <button id="adicionar"
+          class="btn py-1 px-2 bg-slate-300 border-slate-400 border hover:border-slate-800 rounded-none text-slate-800 m-1">Adicionar</button>
+      </div>
+      <br>
+      <div class="m-auto h-auto w-auto">
+        <h3 class="text-slate-800">Lista de Tarefas</h3>
+        <br>
+        <ul id="seguraLista"></ul>
+      </div>
+    </section>
+  </main>
+</body>
+<script type="module" src="./src/js/main.js"></script>
+
+</html>
